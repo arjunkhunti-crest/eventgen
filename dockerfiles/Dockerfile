@@ -1,4 +1,4 @@
-FROM redis:5.0.5-alpine
+FROM redis:5.0.10-alpine
 
 RUN apk --no-cache upgrade && \
 	apk add --no-cache --update \
